@@ -4,6 +4,8 @@ import qbittorrentapi
 #Before running this script, make sure you have the qbittorrent web setup and API enabled.
 #To do that go on this open qbittorrent webui, go to Tools > Options > Web UI and enable it. Set a username and password for the WebUI.
 #Then go to this website http://localhost:8080/ and log in with your credentials. If you can log in, then the script will work.
+#After saving the whole code and running it perfectly make sure to rename the file type from .py to .pyw [ For example if the file name is qb_control.py make it qb_control.pyw ]
+#Then double click the .pyw file and open it with python.It will automatically run in the background.You wont need to open VS code/whatever you have to make it open physically.
 # Configure your WebUI credentials
 
 HOST = "http://localhost:8080"
